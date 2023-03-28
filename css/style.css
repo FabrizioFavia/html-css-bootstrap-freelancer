@@ -2,13 +2,59 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style-type: none;
+
+}
+
+header a{
+    color: white;
+    text-decoration: none;
 }
 
 .bkgDarkBlue{background-color: #2c3e50;}
 .bkgLightBlue{background-color: #3a546d;}
-
 .bkgGreen{background-color: #1abc9c;}
 
 .h510{min-height: 510px;}
 .h230{min-height: 230px;}
 .h40{min-height: 40px;}
+
+.flex{display: flex;}
+
+
+#house{
+    background-image: url(../img/house.png);
+    background-position: center;
+    background-size: contain; 
+}
+
+#cake{
+    background-image: url(../img/cake.png);
+    background-position: center;
+    background-size: contain; 
+}
+
+#circus{
+    background-image: url(../img/circus.png);
+    background-position: center;
+    background-size: contain; 
+}
+
+#controller{
+    background-image: url(../img/controller.png);
+    background-position: center;
+    background-size: contain; 
+}
+
+#vault{
+    background-image: url(../img/vault.png);
+    background-position: center;
+    background-size: contain; 
+}
+
+#submarine{
+    background-image: url(../img/submarine.png);
+    background-position: center;
+    background-size: contain; 
+}
+
