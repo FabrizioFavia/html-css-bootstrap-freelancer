@@ -3,3 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+.bkgDarkBlue{background-color: #2c3e50;}
+.bkgGreen{background-color: #1abc9c;}
+
+.h510{min-height: 510px;}
