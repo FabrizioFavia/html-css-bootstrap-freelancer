@@ -16,19 +16,18 @@
 
     <!-- HEADER -->
     <header>
-        <div class="container-fluid">
-            <div class="row justify-content-around bkgDarkBlue p-3 align-middle">
-                <div class="col-xxl-2 text-center align-self-center text-white fs-4 fw-bold">START BOOTSTRAP</div>
-                <div class="col-xxl-2 text-center text-white">
-                    <ul class="flex align-self-center">
-                        <li><a class="text-white text-decoration-none align-middle" href="#">PORTFOLIO</a></li>
-                        <li class="ps-4"><a class="text-white text-decoration-none align-middle" href="#">ABOUT</a></li>
-                        <li class="ps-4"><a class="text-white text-decoration-none align-middle" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar bkgDarkBlue">
+            <div class="container-xxl container-xl container-lg container-md  mx-auto">
+                <a class="navbar-brand text-white">START BOOTSTRAP</a>
+                <ul class=" navBarItems flex align-self-center">
+                    <li><a class="text-white text-decoration-none align-middle" href="#">PORTFOLIO</a></li>
+                    <li class="ps-4"><a class="text-white text-decoration-none align-middle" href="#">ABOUT</a></li>
+                    <li class="ps-4"><a class="text-white text-decoration-none align-middle" href="#">CONTACT</a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-bars text-white align-self-center fs-3"></i>
             </div>
-        </div>
+        </nav>
     </header>
 
     <!-- MAIN -->
@@ -59,7 +58,7 @@
                 <div class="col-xxl-12 text-center pt-5">
                     <h2>PORTFOLIO</h2>
                 </div>
-                <div class="col-xxl-12 flex text-center justify-content-center">
+                <div class="col-xxl-12 flex text-center justify-content-center mb-5">
                     <div class="myLine bg-dark align-self-center"></div>
                     <i class="fa-solid fa-star mx-2 fs-4 align-self-center" style="color: #020202;"></i>
                     <div class="myLine bg-dark align-self-center"></div>
@@ -67,68 +66,78 @@
 
             </div>
         </div>
+
         <!-- CARD SECTION -->
         <section class="cardSection">
-            <div class="container-xxl">
-                <div class="row p-5 justify-content-center gap-4">
-                    <div id="house" class="col-xxl-3 h230 rounded-2 p-3">
+            <div class="container-xxl container-xl container-lg container-md">
+                <div class="row justify-content-center">
+                    <div id="house" class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4 h230 rounded-2 p-0 m-0">
                     </div>
-                    <div id="cake" class="col-xxl-3 h230 rounded-2 p-3"></div>
-                    <div id="circus" class="col-xxl-3 h230 rounded-2 p-3"></div>
-                    <div id="controller" class="col-xxl-3 h230 rounded-2 p-3"></div>
-                    <div id="vault" class="col-xxl-3 h230 rounded-2 p-3"></div>
-                    <div id="submarine" class="col-xxl-3 h230 rounded-2 p-3"></div>
+                    <div id="cake" class="col-12 col-md-6 col-lg-4 col-xl-4 h230 rounded-2 p-0 m-0"></div>
+                    <div id="circus" class="col-12 col-md-6 col-lg-4 col-xl-4 h230 rounded-2 p-0 m-0"></div>
+                    <div id="controller" class="col-12 col-md-6 col-lg-4 col-xl-4 h230 rounded-2 p-0 m-0"></div>
+                    <div id="vault" class="col-12 col-md-6 col-lg-4 col-xl-4 h230 rounded-2 p-0 m-0"></div>
+                    <div id="submarine" class="col-12 col-md-6 col-lg-4 col-xl-4 h230 rounded-2 p-0 m-0"></div>
                 </div>
             </div>
         </section>
 
         <!-- ABOUT SECTION -->
-        <div class="container-fluid">
-            <div class="row bkgGreen justify-content-center gap-4">
-                <div class="col-xxl-12 text-center pt-5 text-white">
-                    <h2>ABOUT</h2>
-                </div>
-                <div class="col-xxl-12 justify-content-center flex ">
-                    <div class="myLine bg-light align-self-center"></div>
-                    <i class="fa-solid fa-star mx-2 fs-4 align-self-center" style="color: #ffffff;"></i>
-                    <div class="myLine bg-light align-self-center"></div>
-                </div>
-                <div class="col-xxl-4  text-white fs-5">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eos sunt tenetur
-                        praesentium quam debitis, ipsam sapiente? Quae dolore deleniti ipsa nemo, ullam error illum
-                        dolor a amet placeat quisquam.</p>
-                </div>
-                <div class="col-xxl-4 text-white fs-5">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eos sunt tenetur
-                        praesentium quam debitis, ipsam sapiente? Quae dolore deleniti ipsa nemo, ullam error illum
-                        dolor a amet placeat quisquam.</p>
-                </div>
-                <div class="col-xxl-12 text-center">
-                    <button id="dwnldBtn" type="button" class="btn btn-outline-light mb-5"><i
-                            class="fa-solid fa-download"></i> Download</button>
+        <section class="bkgGreen">
+            <div class="container-xxl container-xl container-md">
+                <div class="row justify-content-center ">
+                    <div class="col-xxl-12 text-center pt-5 text-white">
+                        <h2>ABOUT</h2>
+                    </div>
+                    <div class="col-xxl-12 justify-content-center flex ">
+                        <div class="myLine bg-light align-self-center"></div>
+                        <i class="fa-solid fa-star mx-2 fs-4 align-self-center" style="color: #ffffff;"></i>
+                        <div class="myLine bg-light align-self-center"></div>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-12  text-white fs-5">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eos sunt tenetur
+                            praesentium quam debitis, ipsam sapiente? Quae dolore deleniti ipsa nemo, ullam error illum
+                            dolor a amet placeat quisquam.</p>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-5 col-md-5 col-sm-12 text-white fs-5">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit eos sunt tenetur
+                            praesentium quam debitis, ipsam sapiente? Quae dolore deleniti ipsa nemo, ullam error illum
+                            dolor a amet placeat quisquam.</p>
+                    </div>
+                    <div class="col-xxl-12 text-center">
+                        <button id="dwnldBtn" type="button" class="btn btn-outline-light mb-5"><i
+                                class="fa-solid fa-download"></i> Download</button>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
 
         <!-- FORM SECTION -->
-        <div class="container-xxl">
+        <div class="container px-5 mx-auto">
             <div class="row justify-content-center">
                 <div class="col-xxl-12 text-center mt-5">
                     <h2>CONTACT ME</h2>
                 </div>
-                <div class="col-xxl-8 border-bottom border-light-subtle fs-5 mt-5">
-                    <span>Name</span>
+                <div class="col-xxl-8 border-bottom border-light-subtle fs-5 mt-4">
+                    <input id="nameArea" class="border-top-0
+                    border-start-0
+                    border-end-0 border-bottom-0" type="text" placeholder="Name">
                 </div>
                 <div class="col-xxl-8 border-bottom border-light-subtle fs-5 mt-4">
-                    <span>Email Address</span>
+                    <input class="border-top-0
+                    border-start-0
+                    border-end-0 border-bottom-0" type="email" placeholder="Email Address">
                 </div>
                 <div class="col-xxl-8 border-bottom border-light-subtle fs-5 mt-4">
-                    <span>Phone Number</span>
+                    <input class="border-top-0
+                    border-start-0
+                    border-end-0 border-bottom-0" type="number" placeholder="Phone Number">
                 </div>
                 <div class="col-xxl-8">
-                    <div class="form-group fs-5 mt-4">
+                    <div class="form-group fs-5 mt-4 text-color-grey">
                         <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control 
+                        <textarea class="form-control  
                         border-top-0
                         border-start-0
                         border-end-0
@@ -137,7 +146,7 @@
                 </div>
 
                 <div class="col-xxl-8 mt-4">
-                    <button type="button" class="btn btn-outline-light bkgGreen">Send</button>
+                    <input class="btn btn-outline-light bkgGreen" type="submit">
                 </div>
             </div>
         </div>
@@ -153,11 +162,11 @@
                     <p class="text-center">2215 John Daniel Drive Clark. MO 54243</p>
                 </div>
 
-                <div class="col-xxl-2 text-white text-center p-4">
-                    <p class="text-white fs-4 mb-0">AROUND THE WEB</p>
+                <div class="col-xxl-2 text-white text-center py-4">
+                    <p class="text-white fs-4 mb-1">AROUND THE WEB</p>
 
                     <div class="row">
-                        <div class="col-xxl-12 flex justify-content-evenly">
+                        <div class="col-xxl-12 flex justify-content-between">
 
                             <div class="logoBox border rounded-circle text-center">
                                 <i class="socialLogo fa-brands fa-facebook-f text-white align-middle fs-5"></i>
@@ -177,7 +186,7 @@
                     </div>
                 </div>
 
-                <div class="col-xxl-2 text-white text-center p-4">
+                <div class="col-xxl-3 text-white text-center pt-4 px-5">
                     <p class="text-white fs-4 mb-0">ABOUT FREELANCEER</p>
                     <p class="text-center">Freelance is a free to use, open source Bootstrap theme created by Star
                         Bootstran</p>
@@ -191,7 +200,7 @@
                     <span class="fs-5">Copyright @ Your Website 2023</span>
                 </div>
             </div>
-            
+
         </div>
     </footer>
 </body>
