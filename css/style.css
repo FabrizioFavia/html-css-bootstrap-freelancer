@@ -5,37 +5,64 @@
     list-style-type: none;
 }
 
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus,
+body:not(.user-is-tabbing) .form-group:focus {
+  outline: none;
+}
+
 .my-fs-1-5em{font-size: 1.5em;}
 .no-Margin{margin-bottom: 0;}
 .margin05em{margin-bottom: 0.5em;}
-
-ul{
-    padding-left: 0;
-}
-
-
-
 
 .bkgDarkBlue{background-color: #2c3e50;}
 .bkgLightBlue{background-color: #3a546d;}
 .bkgGreen{background-color: #1abc9c;}
 .textGreen{color: #1abc9c;}
 .text-color-grey{color: #757575;}
+
+/* HEIGHTS */
 .h510{min-height: 510px;}
 .h230{min-height: 230px;}
 .h40{min-height: 40px;}
 
+
 .flex{display: flex;}
 
 
+/* HEADER */
+ul{
+    padding-left: 0;
+}
+
+.navBarItems li a{
+    height: 100%;
+}
+
+.navBarItems li:hover{
+    transform: scale(1.1);
+}
+
+.navBarItems li:hover a{
+    border-bottom: 1px solid #1abc9c;
+}
 
 
+
+.fa-bars{
+    display: none;
+}
+
+/* HERO */
 .happy{
     height: 240px;
 }
 
+/* MAIN */
 .myLine{
-    width: 130px;
+    width: 100px;
     height: 2px;
 }
 
@@ -52,6 +79,19 @@ ul{
     height: 50px;
 }
 
+.logoBox:hover{
+    background-color: white;
+}
+
+.logoBox:hover .socialLogo{
+    color: #3a546d;
+}
+
+.formBtn:hover{
+    border: 1px solid black;
+}
+
+/* FOOTER */
 .socialLogo{
     line-height: 47px;
 }
@@ -60,17 +100,6 @@ ul{
     font-size: 12px;
 }
 
-body:not(.user-is-tabbing) button:focus,
-body:not(.user-is-tabbing) input:focus,
-body:not(.user-is-tabbing) select:focus,
-body:not(.user-is-tabbing) textarea:focus,
-body:not(.user-is-tabbing) .form-group:focus {
-  outline: none;
-}
-
-.fa-bars{
-    display: none;
-}
 
 @media screen and (max-width: 768px){
     
@@ -87,6 +116,10 @@ body:not(.user-is-tabbing) .form-group:focus {
     }
 }
 
+    header nav .container-md{
+        padding: 0 20px;
+    }
+
 @media screen and (max-width:576px){
     .fa-bars{
         display: block;
@@ -97,7 +130,7 @@ body:not(.user-is-tabbing) .form-group:focus {
     }
 
     .aboutParagraph{
-        padding: 20px 40px;
+        padding: 10px 40px;
     }
 
 }
