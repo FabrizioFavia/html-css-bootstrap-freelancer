@@ -24,51 +24,7 @@ ul{
 .flex{display: flex;}
 
 
-#house{
-    background-image: url(../img/house.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-#cake{
-    background-image: url(../img/cake.png);
-    background-position: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
-
-}
-
-#circus{
-    background-image: url(../img/circus.png);
-    background-position: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
-
-}
-
-#controller{
-    background-image: url(../img/controller.png);
-    background-position: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
-
-}
-
-#vault{
-    background-image: url(../img/vault.png);
-    background-position: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
-
-}
-
-#submarine{
-    background-image: url(../img/submarine.png);
-    background-position: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
-}
 
 .happy{
     height: 240px;
@@ -96,6 +52,10 @@ ul{
     line-height: 47px;
 }
 
+.copyright{
+    font-size: 12px;
+}
+
 body:not(.user-is-tabbing) button:focus,
 body:not(.user-is-tabbing) input:focus,
 body:not(.user-is-tabbing) select:focus,
@@ -116,12 +76,28 @@ body:not(.user-is-tabbing) .form-group:focus {
     .navBarItems{
         display: none;
     }
+
+    .aboutParagraph{
+        padding: 20px 40px;
+    }
+
 }
 
-/* EXTRA-SMALL */
-@media screen and (max-width:480px){
+@media screen and (max-width: 768px){
     
+    .aboutParagraph{
+        padding: 20px 40px;
+    }
+
+    .footerDscrpt{
+        font-size: 12px;
+    }
+
+    .footerTitle{
+        font-size: 10px;
+    }
 }
+
 
 
 
