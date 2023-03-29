@@ -19,7 +19,7 @@ ul{
 .bkgDarkBlue{background-color: #2c3e50;}
 .bkgLightBlue{background-color: #3a546d;}
 .bkgGreen{background-color: #1abc9c;}
-
+.textGreen{color: #1abc9c;}
 .text-color-grey{color: #757575;}
 .h510{min-height: 510px;}
 .h230{min-height: 230px;}
@@ -72,6 +72,21 @@ body:not(.user-is-tabbing) .form-group:focus {
     display: none;
 }
 
+@media screen and (max-width: 768px){
+    
+    .aboutParagraph{
+        padding: 20px 40px;
+    }
+
+    .footerDscrpt{
+        font-size: 13px;
+    }
+
+    .footerTitle{
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width:576px){
     .fa-bars{
         display: block;
@@ -87,20 +102,7 @@ body:not(.user-is-tabbing) .form-group:focus {
 
 }
 
-@media screen and (max-width: 768px){
-    
-    .aboutParagraph{
-        padding: 20px 40px;
-    }
 
-    .footerDscrpt{
-        font-size: 12px;
-    }
-
-    .footerTitle{
-        font-size: 10px;
-    }
-}
 
 
 
